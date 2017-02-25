@@ -2,9 +2,9 @@
 
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "ND-guest";
-const char* password = "";
-String writeAPIKey   = "---- Thing speak API key -------";
+const char* ssid     = "dd-wrt";
+const char* password = "bobmarley";
+String writeAPIKey   = "H52CGJQNZRRW4FZH";
 
 const char* thingSpeakAddress = "api.thingspeak.com";
 const int updateThingSpeakInterval = 16*1000;
